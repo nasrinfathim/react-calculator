@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  border: 3px;
+}
+
+.mainbody{
+  width: 400px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  background-color: orange;
+
+}
+
+.box{
+  background-color: orange;
+  border-radius: 2px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+
+}
+form input {
+   border: 0;
+   
+   width: 60px;
+   height: 60px;
+   font-size: 16px;
+   margin: 3px;
+   border-radius: 10px;
+   color: black;
+   font-weight: bolder;
+   cursor: pointer;
+}
+.display{
+  
+  
+  
+height: fit-content;
+width: 300px;
+justify-content: space-around;
+  
+
+
+}
+form.display input{
+  
+
+  font-size: 40px;
+  padding: 5px,10px;
+  background-color: white;
+  color: black;
+
+}
+
+.equal{
+  width:123px;
+}
